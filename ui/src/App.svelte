@@ -115,6 +115,14 @@
                 >
                     <i class="ri-tools-line" />
                 </a>
+                <a
+                href="/testCredentials"
+                use:link
+                use:active={{ path: "/testCredentials/?.*", className: "current-route" }}
+                use:tooltip={{ text: "testCredentials", position: "right" }}
+                class="menu-item">
+                <i class="ri-flask-line" />
+                </a>
             </nav>
 
             <div
